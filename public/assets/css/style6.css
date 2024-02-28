@@ -1,0 +1,20 @@
+button{
+    background-color:green;
+    border: red;
+}
+form{
+    margin: auto;
+}
+.identity{
+    background-color: aqua;
+    height: 20%;
+}
+.address{
+    background-color: rgb(19, 122, 153);
+    height: 50%;
+}
+.payment{
+    background-color: rgb(9, 102, 131);
+    height: 30%;
+
+}

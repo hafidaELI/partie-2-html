@@ -1,0 +1,14 @@
+.para_orange{
+    background-color: orangered;
+}
+.blue{
+    background-color: blue;
+}
+p{
+    background-color: gold;
+}
+.marge{margin: 40px;}
+.padding{padding: 40px;}
+body{
+    background-color: red;
+}

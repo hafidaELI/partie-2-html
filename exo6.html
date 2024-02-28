@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice6</title>
+    <link rel="stylesheet" href="public/assets/css/style6.css">
+</head>
+<body>
+    <form action="formulaire" method="">
+        <section>
+            <fieldset class="identity">
+                <legend>Votre identité</legend>
+                    <ol>
+                        <li>
+                            <label for="lastname">Nom:</label>
+                            <input type="text" id="lastname" name="lastname" placeholder="DUPONT">
+                        </li>
+                        <li>
+                            <label for="firstname">Prénom:</label>
+                            <input type="text" id="firstname" name="firstname" placeholder="Marie">
+                        </li>
+                        <li>
+                            <label for="mail">Adresse mail:</label>
+                            <input type="email" id="mail" name="mail" placeholder="******@******.com">
+                        </li>
+                    </ol>
+            </fieldset>
+            <fieldset class="address">
+                <legend>Adresse de livraison</legend>
+                    <ol>
+                        <li>
+                            <label for="address">Adresse:</label>
+                            <textarea id="address" name="address" rows="8"></textarea>
+                        </li>
+                        <li>
+                            <label for="postalcode">Code postal:</label>
+                            <input type="number" id="postalcode" name="postal" placeholder="80080">
+                        </li>
+                        <li>
+                            <label for="city">Ville:</label>
+                            <input type="text" id="city" name="city" placeholder="Amiens">
+                        </li>
+                    </ol>
+            </fieldset>
+            <fieldset class="payment">
+                <legend>Informations de réglement</legend>
+                    <ol>
+                        <li>
+                            <caption>Type de carte bancaire:</caption>
+
+                            <input type="radio" id="visa" name="card" value="VISA">
+                            <label for="visa">VISA</label>
+                    
+                            <input type="radio" id="mastercard" name="card" value="Mastercard">
+                            <label for="mastercard">Mastercard</label>
+                        </li>
+                        <li>
+                            <label for="cartenumber">Numéro de carte:</label>
+                            <input type="number" inputmode="numeric" id="cartenumber" name="cartenumber" placeholder="Numero de carte">
+                        </li>
+                        <li>
+                            <label for="codesecur">Code de sécurité:</label>
+                            <input type="number" id="codesecur" name="codesecur" placeholder="123">
+                        </li>
+                        <li>
+                            <label for="namecard">Nom du titulaire:</label>
+                            <input type="text" id="namecard" name="namecard" placeholder="DUPONT Marie">
+                        </li>
+                   
+                    </ol>
+            </fieldset>
+        </section>
+    </form>
+
+    <div class="button">
+        <button type="button">J'achète !</button>
+    </div>
+</body>
+</html>
